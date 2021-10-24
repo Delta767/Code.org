@@ -1,0 +1,92 @@
+//code.org airplane quiz
+onEvent("button1", "click", function( ) {
+	console.log("button1 clicked!");
+	setScreen("easy");
+});
+onEvent("dropdown1", "change", function( ) {
+	console.log("Selected option: " + getText("dropdown1"));
+});
+onEvent("image4", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("747(1)", "click", function( ) {
+	console.log("boeing74 clicked");
+	setScreen("right1");
+});
+onEvent("concorde(1)", "click", function( ) {
+  console.log("concorde clicked");
+  setScreen("try-again");
+});
+onEvent("cessna172", "click", function( ) {
+  console.log("cessna clicked");
+  setScreen("try-again");
+});
+onEvent("button2", "click", function( ) {
+  console.log("let's go!");
+  setScreen("easy");
+});
+onEvent("button3", "click", function( ) {
+  setScreen("mediano");
+});
+onEvent("airbus320", "click", function( ) {
+  setScreen("right2");
+});
+onEvent("1airbus380", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("1boeing737", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("1boeing777", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("button4", "click", function( ) {
+  setScreen("hard");
+});
+onEvent("aba330", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("b737max", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("b777-300", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("boeing767", "click", function( ) {
+  setScreen("comrade");
+});
+onEvent("C#Bb", "click", function( ) {
+  stopSound("Two-Steps-From-Hell---Cannon-in-D-Minor-(1).mp3");
+  playSound("Two-Steps-From-Hell---Cannon-in-D-Minor-(1).mp3", true);
+});
+onEvent("procede", "click", function( ) {
+  setScreen("morecomrade");
+});
+onEvent("boomverture", "click", function( ) {
+  setScreen("try-again");
+});
+onEvent("concordski", "click", function( ) {
+  setScreen("comrade2");
+  stopSound("Two-Steps-From-Hell---Cannon-in-D-Minor-(1).mp3");
+});
+onEvent("commiecord", "click", function( ) {
+  setScreen("NYET");
+  playSound("Soviet-Anthem-Instrumental-(OFFICIAL-VERSION).mp3", false);
+});
+onEvent("disclaimer", "click", function( ) {
+  setScreen("disclaim");
+  stopSound("Soviet-Anthem-Instrumental-(OFFICIAL-VERSION).mp3");
+});
+onEvent("button7", "click", function( ) {
+  stopSound("Soviet-Anthem-Instrumental-(OFFICIAL-VERSION).mp3");
+  setScreen("title");
+});
+onEvent("button9", "click", function( ) {
+  setScreen("title");
+});
+onEvent("retern", "click", function( ) {
+  setScreen("title");
+});
+onEvent("realconcord", "click", function( ) {
+  setScreen("endscrene");
+});
